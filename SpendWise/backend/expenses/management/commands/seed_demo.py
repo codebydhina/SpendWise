@@ -60,5 +60,5 @@ class Command(BaseCommand):
         action = 'created' if created else 'refreshed'
         self.stdout.write(self.style.SUCCESS(
             f'Demo account {action}: username=demo password=SpendWise123! '
-            f'({len(records)} expenses, budget=₹40,000)'
+            f'({len(records)} expenses, budget=Rs.40,000)'
         ))
